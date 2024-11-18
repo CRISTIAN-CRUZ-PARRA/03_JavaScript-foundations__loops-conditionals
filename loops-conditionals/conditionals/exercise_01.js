@@ -7,3 +7,15 @@
 
     HINT: The modulus operator ( % ) is your friend.
 */
+
+console.log("--- Even or Odd Checker Program ---");
+
+let number = 8; // Change this value to test other cases
+
+if (number % 2 === 0) {
+    console.log(`Number ${number} is even`);
+} else {
+    console.log(`Number ${number} is odd`);
+}
+
+console.log("--- Check complete ---");
